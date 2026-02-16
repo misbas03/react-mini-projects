@@ -1,15 +1,15 @@
-# React-Mini-Projects
+#React Mini Projects
 
-🚀 Projects Included
+🚀 A collection of small React projects built to practice and strengthen core concepts.
+
+Projects Included
 
 ⏱ Stopwatch App
-
-Built to practice useState, useEffect, intervals, and component re-rendering.
+Practiced useState, useEffect, intervals, and component re-rendering.
 
 🎬 Movie Search App
-
-Integrated an external API (OMDB) to fetch and display dynamic data. Learned async/await, loading states, and error handling.
+Integrated the OMDB API to fetch and display dynamic data. Learned async/await, loading states, and error handling.
 
 ✅ Smart To-Do App
+Focused on managing arrays in state, immutable updates, filtering, and user interactions.
 
-Focused on managing arrays in state, updating objects immutably, and handling user interactions.
