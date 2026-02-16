@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  letter-spacing: 4px;
+}
+
+
+body {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;   
+  margin-top: 20px;
+}
+
+.time {
+  font-size: 64px;        
+  font-weight: 600;      
+  margin: 20px 0;         
+  letter-spacing: 2px;    
+}
+
+button {
+  padding: 14px 32px;
+  border-radius: 40px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  min-width: 120px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+button:disabled{
+ 
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+.start-btn {
+  background: #ff8ec7;
+  color: white;
+}
+
+.stop-btn {
+  background: #ff5c9e;
+  color: white;
+}
+
+.reset-btn {
+  background: #c77dff;
+  color: white;
+}
+.theme-btn {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #ffffff30;
+  backdrop-filter: blur(10px);
+  color: inherit;
+  transition: 0.3s ease;
+  position: center;
+  top: 20px;
+  right: 20px;
+}
+
+.theme-btn:hover {
+  transform: scale(1.05);
+}
+
+.dark {
+  background: linear-gradient(135deg, #ff9bd2, #b29dec);
+  color: white;
+}
+
+.light {
+  background: linear-gradient(135deg, #ffe6f5, #ffd6ec);
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 6px 0;
+  font-size: 18px;
+  opacity: 0.9;
+}
